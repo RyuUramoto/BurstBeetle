@@ -15,6 +15,8 @@
 		67A8B82F1D52367700369980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A8B82D1D52367700369980 /* LaunchScreen.storyboard */; };
 		67A8B83A1D52367700369980 /* BurstBeetleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A8B8391D52367700369980 /* BurstBeetleTests.m */; };
 		67A8B8451D52367700369980 /* BurstBeetleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A8B8441D52367700369980 /* BurstBeetleUITests.m */; };
+		67C3CD751D59A0F400F1569B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C3CD741D59A0F400F1569B /* GameViewController.m */; };
+		67C3CD781D59A27300F1569B /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C3CD771D59A27300F1569B /* GameManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		67A8B8401D52367700369980 /* BurstBeetleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurstBeetleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A8B8441D52367700369980 /* BurstBeetleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BurstBeetleUITests.m; sourceTree = "<group>"; };
 		67A8B8461D52367700369980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67C3CD731D59A0DB00F1569B /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		67C3CD741D59A0F400F1569B /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		67C3CD761D59A26000F1569B /* GameManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
+		67C3CD771D59A27300F1569B /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				67A8B8231D52367700369980 /* AppDelegate.m */,
 				67A8B8251D52367700369980 /* ViewController.h */,
 				67A8B8261D52367700369980 /* ViewController.m */,
+				67C3CD731D59A0DB00F1569B /* GameViewController.h */,
+				67C3CD741D59A0F400F1569B /* GameViewController.m */,
+				67C3CD761D59A26000F1569B /* GameManager.h */,
+				67C3CD771D59A27300F1569B /* GameManager.m */,
 				67A8B8281D52367700369980 /* Main.storyboard */,
 				67A8B82B1D52367700369980 /* Assets.xcassets */,
 				67A8B82D1D52367700369980 /* LaunchScreen.storyboard */,
@@ -273,7 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67C3CD751D59A0F400F1569B /* GameViewController.m in Sources */,
 				67A8B8271D52367700369980 /* ViewController.m in Sources */,
+				67C3CD781D59A27300F1569B /* GameManager.m in Sources */,
 				67A8B8241D52367700369980 /* AppDelegate.m in Sources */,
 				67A8B8211D52367700369980 /* main.m in Sources */,
 			);
@@ -499,6 +511,7 @@
 				67A8B84B1D52367700369980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67A8B84C1D52367700369980 /* Build configuration list for PBXNativeTarget "BurstBeetleTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +520,7 @@
 				67A8B84E1D52367700369980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67A8B84F1D52367700369980 /* Build configuration list for PBXNativeTarget "BurstBeetleUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +529,7 @@
 				67A8B8511D52367700369980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

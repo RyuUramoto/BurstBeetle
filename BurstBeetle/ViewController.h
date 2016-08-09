@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)pushedStartButton:(id)sender;
 
 @end
 
